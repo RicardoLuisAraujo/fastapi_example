@@ -24,7 +24,7 @@ db: list[User] = [
 
 @app.get("/")
 def root() -> dict:
-    return {"message": "Hello"}
+    return {"message": "You can use the path /api/users to get all users."}
 
 
 @app.get("/api/users")
