@@ -10,3 +10,6 @@ pipenv install --dev
 ```bash
 uvicorn main:app --reload
 ```
+
+## Requests
+I recommend using Thunder Client for VSCode to make requests to the API.
