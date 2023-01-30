@@ -11,5 +11,11 @@ pipenv install --dev
 uvicorn main:app --reload
 ```
 
+## Interactive Docs
+### Swagger
+After opening the server, go to the interactive docs at:
+
+```localhost:8000/docs```
+
 ## Requests
 I recommend using Thunder Client for VSCode to make requests to the API.
